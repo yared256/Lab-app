@@ -1,0 +1,76 @@
+.Main-Container{
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,  rgba(0,0,0,0.8)50%), url('https://i.etsystatic.com/20673555/r/il/d0773a/2348367612/il_fullxfull.2348367612_lwxa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px; /* Adjust the height as needed */
+    background-color: #000000;
+    margin-left: calc(20% - 20vw);
+    margin-right: calc(20% - 20vw);
+}
+
+h1 {
+    text-align: center; /* Align text in the center */
+    color:darkorange; /* Set text color to blue */
+  }
+  
+  @keyframes slideInAnimation {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .fade-in-slide {
+    animation: slideInAnimation 3s ease forwards; /* Adjust the duration as needed */
+  }
+  .search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally center the container */
+    width: 80%; /* Set the width of the container */
+    margin: 70px auto 0; /* Center the container horizontally */
+  }
+  
+  .search-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius:5px 0 0 5px;
+    width: 80%; /* Set the width of the input field */
+    max-width: 400px; /* Set maximum width if needed */
+    color: #120404c3;
+    font-weight:lighter;
+  }
+  .search-container input[type="text"]:focus {
+    border: 1.4px solid #007bff; 
+    outline: none;
+  }
+  .search-container button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  
+  /* Hover effect */
+  .search-container button:hover {
+    background-color: #0056b3;
+  }
+  .Image-container {
+    text-align: center; /* Center the image horizontally within the container */
+    margin-top: 30px; /* Set margin top to 100px */
+  }
+  
+  .Image {
+    width: 80%; /* Set width to 50px */
+    height: 100px; /* Let the height adjust automatically to maintain aspect ratio */
+  }
+  
